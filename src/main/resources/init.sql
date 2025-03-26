@@ -1,8 +1,3 @@
--- Xóa các bảng cũ nếu tồn tại
-DROP TABLE IF EXISTS borrow_records;
-DROP TABLE IF EXISTS books;
-DROP TABLE IF EXISTS users;
-
 -- Tạo bảng users
 CREATE TABLE IF NOT EXISTS users (
     id INT PRIMARY KEY AUTO_INCREMENT,
